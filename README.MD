@@ -1,4 +1,4 @@
-#My currently shared nvim config between machines
+# My currently shared nvim config between machines
 
 [w64devkkit](https://github.com/skeeto/w64devkit/releases)
 
