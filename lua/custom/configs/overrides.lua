@@ -26,9 +26,10 @@ M.treesitter = {
 
 M.mason = {
   ensure_installed = {
-    "bash-language-server",
+
     -- Java
     "jdtls",
+
     -- rust lsp
     "rust-analyzer",
 
