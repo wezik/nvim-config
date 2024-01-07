@@ -1,4 +1,4 @@
-# My currently shared nvim config between machines
+# My currently shared nvim config
 
 [neovim](https://neovim.io)
 
