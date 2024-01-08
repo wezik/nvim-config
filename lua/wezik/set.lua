@@ -6,9 +6,12 @@ vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 
+vim.opt.breakindent = true
 vim.opt.smartindent = true
 
 vim.opt.wrap = false
+
+vim.opt.undofile = true
 
 vim.opt.swapfile = false
 vim.opt.backup = false
@@ -24,4 +27,6 @@ vim.opt.signcolumn = "yes"
 vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "80"
+
+vim.opt.completeopt = "menuone,noselect"
 
