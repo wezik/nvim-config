@@ -6,9 +6,6 @@ vim.keymap.set("n", "<leader>fm", function()
     vim.lsp.buf.format { async = true }
 end)
 
-vim.opt.undodir = "/.undotr/undodir"
-vim.opt.undofile = true
-
 vim.opt.isfname:append("@-@")
 
 vim.keymap.set("n", "<leader>fml", "<cmd>CellularAutomaton make_it_rain<CR>")
