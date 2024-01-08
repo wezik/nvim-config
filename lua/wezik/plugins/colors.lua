@@ -28,9 +28,13 @@ return {
         "rose-pine/neovim",
         name = "rose-pine",
         config = function()
-            vim.cmd("colorscheme rose-pine")
             require("rose-pine").setup({
-                disable_background = true
+                disable_background = true,
+                italic = false,
+
+                highlight_groups = {
+                    ["@variable"] = { italic = false },
+                }
             })
             ColorBG()
         end
