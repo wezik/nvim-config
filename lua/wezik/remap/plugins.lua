@@ -32,3 +32,7 @@ else
     print("Skipping harpoon keybinds")
 end
 
+-- Undo tree --
+
+vim.keymap.set("n","<leader>u", vim.cmd.UndotreeToggle)
+
