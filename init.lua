@@ -1,3 +1,11 @@
+require "wezik.bootstrap" 
+require "wezik.set"
+require "wezik.remap"
+
+require("lazy").setup("wezik.plugins")
+
+require "wezik.remap.plugins"
+
 -- require "core"
 --
 -- local custom_init_path = vim.api.nvim_get_runtime_file("lua/custom/init.lua", false)[1]
@@ -10,7 +18,7 @@
 --
 -- local lazypath = vim.fn.stdpath "data" .. "/lazy/lazy.nvim"
 --
--- -- bootstrap lazy.nvim!
+-- -- bootstrap lazy.nvim!`
 -- if not vim.loop.fs_stat(lazypath) then
 --   require("core.bootstrap").gen_chadrc_template()
 --   require("core.bootstrap").lazy(lazypath)
