@@ -1,16 +1,12 @@
 return {
-
     {
         "nvim-lua/plenary.nvim",
         name = "plenary",
     },
 
     "mbbill/undotree",
-
-    -- Git fugitive --
-    "tpope/vim-fugitive",
-  
     "eandrju/cellular-automaton.nvim",
+    "tpope/vim-fugitive",
 
     {
         "ThePrimeagen/harpoon",
