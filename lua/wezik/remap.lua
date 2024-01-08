@@ -15,3 +15,6 @@ vim.keymap.set("n", "<leader><leader>", "<cmd>so<CR>")
 vim.keymap.set("v", "<", "<gv")
 vim.keymap.set("v", ">", ">gv")
 
+-- complementary map to harpoon --
+vim.keymap.set({"n", "v"},"<leader>`","<cmd>b#<CR>")
+
