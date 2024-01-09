@@ -3,11 +3,6 @@ return {
         "nvim-lua/plenary.nvim",
         name = "plenary",
     },
-
-    "mbbill/undotree",
-    "eandrju/cellular-automaton.nvim",
-    "tpope/vim-fugitive",
-
     {
         "ThePrimeagen/harpoon",
         branch = "harpoon2",
@@ -20,6 +15,8 @@ return {
             harpoon:setup()
         end
     },
-
+    "mbbill/undotree",
+    "eandrju/cellular-automaton.nvim",
+    "tpope/vim-fugitive",
 }
 
