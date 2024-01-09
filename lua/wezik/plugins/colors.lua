@@ -9,7 +9,7 @@ end
 return {
     {
         "folke/tokyonight.nvim",
-        config = function() 
+        config = function()
             require("tokyonight").setup({
                 style = "storm",
                 transparent = true,
@@ -31,9 +31,10 @@ return {
             require("rose-pine").setup({
                 disable_background = true,
                 italic = false,
-
                 highlight_groups = {
                     ["@variable"] = { italic = false },
+                    ["@parameter"] = { italic = false },
+                    ["@property"] = { italic = false },
                 }
             })
             ColorBG()
