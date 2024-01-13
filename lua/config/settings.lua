@@ -40,3 +40,5 @@ vim.opt.scrolloff = 8
 
 vim.opt.expandtab = true
 
+vim.opt.colorcolumn = "80"
+
