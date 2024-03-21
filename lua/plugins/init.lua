@@ -1,5 +1,6 @@
 return {
-
+  -- Copliot obviously duh
+  'github/copilot.vim',
   -- Git related plugins
   'tpope/vim-fugitive',
   'tpope/vim-rhubarb',
@@ -46,6 +47,6 @@ return {
   require("plugins/telescope"),
   require("plugins/treesitter"),
   require("plugins/harpoon"),
-	'ThePrimeagen/vim-be-good',
+  'ThePrimeagen/vim-be-good',
 }
 
